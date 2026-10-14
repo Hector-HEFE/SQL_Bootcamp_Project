@@ -22,7 +22,7 @@ GROUP BY
 ORDER BY
     frequency_of_skill  DESC
 LIMIT
-    10
+    5
 
 /* The most in-demand skills for data analysts:
 "skills","frequency_of_skill"
@@ -31,9 +31,4 @@ LIMIT
 "python","4330"
 "tableau","3745"
 "power bi","2609"
-"r","2142"
-"sas","1866"
-"looker","868"
-"azure","821"
-"powerpoint","819"
 */

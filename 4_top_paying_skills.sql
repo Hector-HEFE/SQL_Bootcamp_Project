@@ -9,7 +9,6 @@ QUESTION: What are the top skills based on salary?
 SELECT
     skills_dim.skills,
     ROUND (AVG (salary_year_avg), 0) AS avg_salary
-    --COUNT(skills_dim.skill_id) AS frequency_of_skill
 FROM
     job_postings_fact
 INNER JOIN skills_job_dim ON skills_job_dim.job_id = job_postings_fact.job_id

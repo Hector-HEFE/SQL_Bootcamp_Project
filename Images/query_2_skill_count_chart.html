@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Skills for Top-Paying Data Analyst Jobs</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+        }
+        .chart-container {
+            width: 85%;
+            max-width: 900px;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #10b981;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #059669;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chart-container">
+    <canvas id="skillsChart"></canvas>
+</div>
+<button id="downloadBtn">Download Chart as PNG</button>
+
+<script>
+    const ctx = document.getElementById('skillsChart').getContext('2d');
+    const chart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: [
+                'SQL', 
+                'Python', 
+                'Tableau', 
+                'R', 
+                'Snowflake', 
+                'Pandas', 
+                'Excel', 
+                'Atlassian', 
+                'Azure', 
+                'Jira'
+            ],
+            datasets: [{
+                label: 'Skill Frequency',
+                data: [8, 7, 6, 4, 3, 3, 3, 2, 2, 2],
+                backgroundColor: 'rgba(16, 185, 129, 0.8)',
+                borderColor: 'rgba(16, 185, 129, 1)',
+                borderWidth: 1,
+                borderRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'Frequency of Skills in Top-Paying Data Analyst Jobs',
+                    font: { size: 18, weight: 'bold' }
+                },
+                legend: { display: false }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        stepSize: 1
+                    }
+                }
+            }
+        }
+    });
+
+    document.getElementById('downloadBtn').addEventListener('click', function() {
+        const link = document.createElement('a');
+        link.download = 'top_skills_salary_chart.png';
+        link.href = chart.toBase64Image();
+        link.click();
+    });
+</script>
+
+</body>
+</html>
