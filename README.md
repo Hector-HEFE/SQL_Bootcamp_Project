@@ -3,7 +3,7 @@
 
 # Background
 
-Part of my learning path into Data Analysis. Explore my learning progress and projects on [my Data Analyst website](https://dataanalyst.hefe.ca) or view the [SQL Queries](/SQL_Bootcamp_Project/SQL_Queries/) in this repository.
+Part of my learning path into Data Analysis. Explore my learning progress and projects on [my Data Analyst website](https://dataanalyst.hefe.ca) or view the [SQL Queries](/SQL_Queries/) in this repository.
 
 Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
 
