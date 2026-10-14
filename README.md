@@ -61,36 +61,36 @@ Here's the breakdown of the top data analyst jobs in 2023:
 Each block ($\blacksquare$) represents roughly $12,500.
 
 **1. Mantys | $650,000**
-    ██████████████████████████████████████████████████████
+██████████████████████████████████████████████████████
 
  **2. Meta | $336,500**
-    ████████████████████████████
+████████████████████████████
 
  **3. AT&T | $255,830**
-    █████████████████████
+█████████████████████
 
  **4. Pinterest Job Ads | $232,423**
-    ███████████████████
+███████████████████
 
  **5. Uclahealthcareers | $217,000**
-    ██████████████████
+██████████████████
 
  **6. SmartAsset (Remote) | $205,000**
-    ████████████████
+████████████████
 
  **7. Inclusively | $189,309**
-    ███████████████
+███████████████
 
  **8. Motional | $189,000**
-    ███████████████
+███████████████
 
  **9. SmartAsset | $186,000**
-    ██████████████
+██████████████
 
 **10. Get It Recruit | $184,000**
-    ██████████████
+██████████████
 
-*Bar graph visualizing the salary for the top 10 salaries for data analysts; ChatGPT generated this graph from my SQL query results*
+*Bar graph visualizing the salary for the top 10 salaries for data analysts; Claude generated this graph from my SQL query results*
 
 # What I learned
 
