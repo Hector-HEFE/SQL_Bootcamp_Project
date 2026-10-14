@@ -1,12 +1,13 @@
 # Introduction
 📊 Dive into the data job market! Focusing on data analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
 
-SQL queries? Check them out here: [SQL_Bootcamp_Project folder](/SQL_Bootcamp_Project/)
-
 # Background
+
+Part of my learning path into Data Analysis. Explore my learning progress and projects on [my Data Analyst website](https://dataanalyst.hefe.ca) or view the [SQL Queries](\SQL_Queries) in this repository.
+
 Driven by a quest to navigate the data analyst job market more effectively, this project was born from a desire to pinpoint top-paid and in-demand skills, streamlining others work to find optimal jobs.
 
-Data hails from [SQL Course](https://www.lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills.
+Data hails from Luke Brousse's SQL [Course](https://www.lukebarousse.com/sql). It's packed with insights on job titles, salaries, locations, and essential skills.
 
 ### The questions I wanted to answer through my SQL queries were:
 1. What are the top-paying data analyst jobs?
@@ -235,7 +236,6 @@ Here's a breakdown of the most optimal skills for Data Analysts in 2023:
 - **Data-Driven Decisions:** Compared skill demand and salary data to identify promising areas for professional development.
 - **Git & GitHub:** Practiced version control, commits, publishing projects, and documenting results with Markdown.
 
-Explore my learning progress and projects on my [Data Analyst website](https://dataanalyst.hefe.ca) or view the SQL queries in this repository.
 # Conclusions
 From the analysis, several general insights emerged:
 
